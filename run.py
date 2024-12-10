@@ -115,7 +115,7 @@ def main():
 
         if people_to_call:
             name = random.choice(people_to_call)
-            body = f"Have you called {name} lately?"
+            body = f"Have you called {name} lately? (Who by the way doesn't hate you)"
 
             send_text(body)
             update_last_called(name)
